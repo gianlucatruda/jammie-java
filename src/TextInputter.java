@@ -19,7 +19,9 @@ public class TextInputter {
 		try {
 			Scanner scanner = new Scanner(new File(textfile));
 			while (scanner.hasNextLine()) {
-				outArray.add(scanner.nextLine());
+				String line = scanner.nextLine();
+				// Code to scrub start and end whitespace from line.
+				outArray.add(line);
 			}
 
 		} catch (FileNotFoundException e) {
