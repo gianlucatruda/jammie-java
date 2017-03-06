@@ -9,7 +9,7 @@ This project aims to be a collaborative and actively updated repository for UCT 
 It also aims to be a safe and encouraging space for students to get to grips with Git and collaborative work — with a view to engaging in the open source community in the future.
 
 <b>This project does not provide solutions to assignments, nor is it a resource for copying and pasting code!</b>
-For more information on what is and is not permitted, please see the CSC department's [plagiarism policy](https://github.com/gianlucatruda/jammie-java/csc-plagiarism-policy.pdf).
+For more information on what is and is not permitted, please see the CSC department's [plagiarism policy](https://github.com/gianlucatruda/jammie-java/blob/master/csc-plagiarism-policy.pdf).
 
 All code found here already exists in some form or another on the web, but is built and archived here for consistency and time efficiency.
 
