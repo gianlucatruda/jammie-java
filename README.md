@@ -69,3 +69,5 @@ $ git push origin feature/MYFEATURE
 ```
 
 Once you are done, submit a pull request [here](https://github.com/gianlucatruda/jammie-java/pulls) comparing your feature branch to the <i>develop</i> branch. The reviewing and discussion then begins.
+
+For more detail on the development process, check out [this illustrated guide](https://guides.github.com/introduction/flow/).
