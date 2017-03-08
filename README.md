@@ -46,3 +46,26 @@ UCT students and staff are welcome to use and contribute to this codebase. The p
 ## How can I help?
 
 The project is only just starting out. If you wish to collaborate, please email a short description of yourself and your experience level to trdgia001@myuct.ac.za and we'll be in touch.
+
+## Contributors' Notes
+
+The project makes use of [Git Flow](http://danielkummer.github.io/git-flow-cheatsheet/), a set of git extensions.
+As a result, new features will be on a branch titled "<i>feature/my-new-feature</i>" and all code must merge into the <i>develop</i> branch, then be checked before it is finally merged to the <i>master</i> branch for distribution.
+
+The use of [IntelliJ](https://www.jetbrains.com/idea/) IDE is recommended.
+
+Tab indentation is used (IntelliJ defaults), with other conventions as described [here](http://www.oracle.com/technetwork/java/javase/documentation/codeconventions-136091.html).
+
+If you don't know where to start contributing, have a look at the listed [issues and suggestions](https://github.com/gianlucatruda/jammie-java/issues) for inspiration. Anything tagged <i>help wanted</i> is free game, but please comment that you are taking on that project so that nobody clashes with you and does unnecessary work.
+
+Clone the repo, make sure Git Flow is installed and configured (all default settings) and then make your new branch with
+```
+$ git flow feature start MYFEATURE
+```
+
+Build your feature and push changes regularly to your branch:
+```
+$ git push origin feature/MYFEATURE
+```
+
+Once you are done, submit a pull request [here](https://github.com/gianlucatruda/jammie-java/pulls) comparing your feature branch to the <i>develop</i> branch. The reviewing and discussion then begins.
